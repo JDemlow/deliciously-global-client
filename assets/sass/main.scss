@@ -1729,7 +1729,7 @@ body.landing {
 #banner {
   background-attachment: fixed;
   background-color: _palette(accent2);
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/banner-01.jpg");
   background-position: center center;
   background-size: cover;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -1808,6 +1808,24 @@ body.landing {
 body.is-touch {
   #banner {
     background-attachment: scroll;
+  }
+}
+
+// Logo
+
+.dg-logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+
+@media (max-width: 500px) {
+  /* You can adjust the max-width value as needed */
+  .dg-logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 15%;
   }
 }
 
