@@ -2635,6 +2635,21 @@ body.landing .dropotron.level-0 {
   display: none;
 }
 
+.dg-logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+
+@media (max-width: 500px) {
+  /* You can adjust the max-width value as needed */
+  .dg-logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 15%;
+  }
+}
 body.landing #page-wrapper {
   padding-top: 0;
 }
@@ -2714,22 +2729,6 @@ body.is-touch #banner {
   background-attachment: scroll;
 }
 
-.dg-logo {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin-top: 20%;
-  position: absolute;
-}
-
-@media (max-width: 500px) {
-  /* You can adjust the max-width value as needed */
-  .dg-logo {
-    height: 100px;
-    width: 100px;
-    margin-top: 15%;
-  }
-}
 /* Footer */
 #footer {
   background: #272833;
