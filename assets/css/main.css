@@ -1953,6 +1953,10 @@ input[type=radio] + label:before {
   width: 100%;
 }
 
+.star-img {
+  margin-bottom: 15px;
+}
+
 /* List */
 ol {
   list-style: decimal;
@@ -2643,11 +2647,27 @@ body.landing .dropotron.level-0 {
 }
 
 @media (max-width: 500px) {
-  /* You can adjust the max-width value as needed */
   .dg-logo {
     height: 100px;
     width: 100px;
     margin-top: 15%;
+    display: none;
+  }
+}
+.dg-logo-mobile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20%;
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .dg-logo-mobile {
+    height: 100px;
+    width: 100px;
+    margin-top: 15%;
+    display: inline;
   }
 }
 body.landing #page-wrapper {
