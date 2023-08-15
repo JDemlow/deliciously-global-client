@@ -1744,8 +1744,8 @@ body.landing {
 
 @media (max-width: 500px) {
   .dg-logo-mobile {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin-top: 15%;
     display: inline;
   }
@@ -1817,13 +1817,21 @@ body.landing {
       vertical-align: middle;
 
       h2 {
-        font-size: 2.5em;
+        font-family: "Satisfy", cursive;
+        font-size: 6em;
         margin: 0;
       }
 
       p {
+        font-size: 1.5em;
         margin: (_size(element-margin) * 0.25) 0 0 0;
         top: 0;
+      }
+    }
+
+    @media (max-width: 500px) {
+      h2 {
+        display: none;
       }
     }
 
