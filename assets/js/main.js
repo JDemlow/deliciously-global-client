@@ -43,7 +43,7 @@
   // Title Bar.
   $(
     '<div id="titleBar">' +
-      '<a href="#navPanel" class="toggle"></a>' +
+      '<a href="#navPanel" class="toggle" aria-label="click our menu"></a>' +
       '<span class="title">' +
       $("#logo").html() +
       "</span>" +
