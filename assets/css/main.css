@@ -3049,6 +3049,7 @@ body.is-touch #banner {
   #titleBar .title a {
     color: inherit;
     border: 0;
+    font-family: "Satisfy", Times, serif;
   }
   #titleBar .toggle {
     text-decoration: none;
